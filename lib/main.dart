@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.teal, // ✅ Ganti ke hijau/teal
+          seedColor: Colors.teal, // 
           brightness: Brightness.light,
         ),
         appBarTheme: AppBarTheme(
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         floatingActionButtonTheme: const FloatingActionButtonThemeData(
-          backgroundColor: Colors.teal, // ✅ FAB hijau
+          backgroundColor: Colors.teal, // 
           foregroundColor: Colors.white,
         ),
       ),
@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// ✅ Palet pastel HIJAU & netral
+
 final List<Color> _pastelColors = [
   Colors.teal.shade50,
   Colors.green.shade50,
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
         content: const Text('Catatan berhasil ditambahkan! ✅'),
-        backgroundColor: Colors.teal.shade700, // ✅ Snackbar hijau
+        backgroundColor: Colors.teal.shade700, // 
         behavior: SnackBarBehavior.floating,
         margin: const EdgeInsets.all(16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
