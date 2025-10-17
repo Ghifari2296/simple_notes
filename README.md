@@ -27,6 +27,7 @@ Aplikasi menggunakan **tema hijau-teal** yang elegan dan antarmuka yang responsi
 ![Form Tambah Catatan](screenshots/form_tambah.png)  
 *Dialog untuk menambah catatan baru dengan judul dan deskripsi*
 
+
 > 💡 Pastikan folder `screenshots/` berisi kedua file gambar tersebut saat di-upload ke GitHub.
 
 ## Penjelasan Penggunaan List
